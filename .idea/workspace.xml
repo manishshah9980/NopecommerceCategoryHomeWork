@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce788c96-07e4-4781-933b-b06320940b3d" name="Default Changelist" comment="" />
+    <list default="true" id="ce788c96-07e4-4781-933b-b06320940b3d" name="Default Changelist" comment="aaded iedriver">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrencyChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrencyChangeResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuestComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuestCommentsResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuestUserCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/exceltestcases/NEWTestCase and feature file excel -.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/exceltestcases/test1config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BookCategoryPage$categoryPge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BookCategoryPage$categoryPge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BrowserSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuite.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xqf1PvZ1s3rb9jjMCD3jwhTu2k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,12 +60,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Resources/exceltestcases" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="geckodriver" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\shahm\IdeaProjects\WebtestNopcomerce\src\test\Resources\exceltestcases" />
       <recent name="C:\Users\shahm\IdeaProjects\WebtestNopcomerce\src\test\Resources\BrowserDriver" />
+      <recent name="C:\Users\shahm\IdeaProjects\WebtestNopcomerce\src\test\Resources\exceltestcases" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuite.userSouldCompareProductsSuccessfully">
+  <component name="RunManager" selected="JUnit.TestSuite.guestUserShouldBeAbletoAddCopmments">
     <configuration name="TestSuite.UserShouldBeAbleToRegisterSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebtestNopcomerce" />
       <extension name="coverage">
@@ -54,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.UserShuldBeAbleToRegisterSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.guestUserShouldBeAbletoAddCopmments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebtestNopcomerce" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +95,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="UserShuldBeAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbletoAddCopmments" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userShouldBeAbleToCompareTwoDifferentProductSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.guestUserShouldCheckoutSuccessFully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebtestNopcomerce" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +111,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToCompareTwoDifferentProductSuccessfully" />
+      <option name="METHOD_NAME" value="guestUserShouldCheckoutSuccessFully" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userShouldBeAbleToCompareTwoDiffrentProductSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.userShouldBeAbleToChangeCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebtestNopcomerce" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +127,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToCompareTwoDiffrentProductSuccessfully" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToChangeCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userSouldCompareProductsSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.userSouldPrintPriceSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebtestNopcomerce" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="userSouldCompareProductsSuccessfully" />
+      <option name="METHOD_NAME" value="userSouldPrintPriceSuccessfully" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSuite.userSouldCompareProductsSuccessfully" />
+        <item itemvalue="JUnit.TestSuite.guestUserShouldBeAbletoAddCopmments" />
+        <item itemvalue="JUnit.TestSuite.userShouldBeAbleToChangeCurrency" />
+        <item itemvalue="JUnit.TestSuite.guestUserShouldCheckoutSuccessFully" />
         <item itemvalue="JUnit.TestSuite.UserShouldBeAbleToRegisterSuccessfully" />
-        <item itemvalue="JUnit.TestSuite.userShouldBeAbleToCompareTwoDifferentProductSuccessfully" />
-        <item itemvalue="JUnit.TestSuite.userShouldBeAbleToCompareTwoDiffrentProductSuccessfully" />
-        <item itemvalue="JUnit.TestSuite.UserShuldBeAbleToRegisterSuccessfully" />
+        <item itemvalue="JUnit.TestSuite.userSouldPrintPriceSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -153,30 +184,54 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaded iedriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaded iedriver" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1582128941175">
+    <state x="380" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582640161438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582128941175" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1582128941175">
+    <state x="380" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1582640161438" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582649440089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582128941175" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1582128941174">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1582649440089" />
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1582473062245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582128941174" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1582128941175">
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582473062245" />
+    <state width="1237" height="320" key="GridCell.Tab.0.bottom" timestamp="1582763136452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582128941175" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1581784534464">
+    <state width="1237" height="320" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582763136452" />
+    <state width="1237" height="320" key="GridCell.Tab.0.center" timestamp="1582763136452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1581784534464" />
+    <state width="1237" height="320" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582763136452" />
+    <state width="1237" height="320" key="GridCell.Tab.0.left" timestamp="1582763136452">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="320" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582763136452" />
+    <state width="1237" height="320" key="GridCell.Tab.0.right" timestamp="1582763136452">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="320" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582763136452" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1582653468661">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1582653468661" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582576554480">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582576554480" />
     <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582055930708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1582055930708" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1582648485264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1582648485264" />
   </component>
 </project>

@@ -11,6 +11,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Utils extends BasePage {
+
+    public void clickOnElement(By by){
+        driver.findElement(by).click();
+    }
+
     public void clickonElements(By by) {
     driver.findElement(by).click();
    }

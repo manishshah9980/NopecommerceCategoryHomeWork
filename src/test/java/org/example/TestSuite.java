@@ -1,25 +1,31 @@
 package org.example;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
-public class TestSuite extends BaseTest
-{
+import java.util.List;
+
+public class TestSuite extends BaseTest {
     HomePage homePage = new HomePage();
-
+ // OBJECT FOR REGISTRATION PAGE
     RegistrationPage registrationPage = new RegistrationPage();
     RegistrationResultPage registrationResultPage = new RegistrationResultPage();
 
-    @Test
-        public void userSouldCompareProductsSuccessfully(){
+
+// OBJECT FOR GUEST COMMENT
+    GuestComments guestComments = new GuestComments();
+    GuestCommentsResults guestCommentsResults = new GuestCommentsResults();
 
 
-    }
+ // OBJECT FOR CURRENCY CHANGE
+    CurrencyChange currencyChange = new CurrencyChange();
+    CurrencyChangeResultPage currencyChangeResultPage = new CurrencyChangeResultPage();
 
-
-
+    GuestUserCheckout guestUserCheckout = new GuestUserCheckout();
         @Test
-
+        // METHOD FOR USER CAN REGISTER SUCCESSFULLY
         public void UserShouldBeAbleToRegisterSuccessfully()
         {
             homePage.clickonRegisterButton();
@@ -30,24 +36,36 @@ public class TestSuite extends BaseTest
            registrationResultPage.verifyUserSeeRegisterationSuccessMessage();
 
         }
+          @Test
+        // METHOD FOR USER TO ADD COMMENTS
+        public void guestUserShouldBeAbletoAddCopmments() {
+              guestComments.addComments();
 
-        @Test
+          }
 
-      public void userShouldBeAbleToCompareTwoDifferentProductSuccessfully(){
+          @Test
+          // METHOD FOR USER CAN CHANGE CURRENCY
+          public void userShouldBeAbleToChangeCurrency() {
+              currencyChange.selectCurrencyUsDollarToEuro();
+              currencyChangeResultPage.verifychangeCurrencyChangeUsDollarsToEuro();
 
-            browserSelector.setUpBrowser();
+              currencyChange.selectCurrencyEuroToDollar();
+              currencyChangeResultPage.verifycurrencyChangeEuroToUsDollar();
+
+          }
+          @Test
+          // METHOD FOR GUEST USER CAN CHECKOUT SUCCESSFULLY
+         public void guestUserShouldCheckoutSuccessFully(){
+
+            guestUserCheckout.enterDetailsForCheckout();
 
 
         }
 
 
+          }
 
 
 
 
-
-
-
-
-    }
 
